@@ -9,7 +9,8 @@ from timeit import default_timer as timer
 
 import numpy as np
 #from keras import backend as K
-import tensorflow.python.keras.backend as K
+#import tensorflow.python.keras.backend as K
+import tensorflow.compat.v1.keras.backend as K
 
 from keras.models import load_model
 from keras.layers import Input
